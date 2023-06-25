@@ -1,4 +1,6 @@
-const input = require("prompt-sync")();
+//const input = require("sync-input"); // To get user input in hyperskill.org
+const input = require("prompt-sync")(); // To get user input in Node.js environment
+
 const CoffeeMachine = {
     singleCupReqs: {
         water: 200,
